@@ -12,7 +12,7 @@ exports.mdr = new Promise((resolve) => {
 })
 exports.faker = () => {
   const url = []
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 1000; i++) {
     url.push(faker.image.avatar())
   }
 
